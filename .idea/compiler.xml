@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="library-dubbo-webservice" />
         <module name="library-dubbo-facade" />
-        <module name="library-dubbo-service" />
         <module name="library-dubbo-parent" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="library-dubbo-service" target="1.7" />
+      <module name="library-dubbo-webservice" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
